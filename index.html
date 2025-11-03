@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Meta tags essenciais  -->
+  <meta name="author" content="Sofia de Araújo">
+  <meta name="description" content="Portfólio de Sofia de Araújo, apresentando meus projetos e habilidades em desenvolvimento web.">
+  <meta name="robots" content="index, follow">
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="./assets/img/favicon.svg">
+  <title>Portfólio Sofia de Araújo</title>
+</head>
+<body>
+  <!-- Header Navbar - Menu -->
+  <header class="flex menu_container">
+    <article class="menu_content">
+      <div id="titulo">
+        <a href="#">Portfólio</a>
+      </div>
+      <nav>
+        <ul class="flex menu_list">
+          <li><a href="#hero">Início</a></li>
+          <li><a href="#about">Sobre</a></li>
+          <li><a href="#contact">Contato</a></li>
+        </ul>
+      </nav>
+    </article>
+  </header>
+  <!-- Área principal -->
+  <main>
+    <section id="hero" class="hero_container">
+      <article class="hero_content">
+        <h4>👋 Olá, eu sou Sofia</h4>
+        <h1>Desenvolvedora Full Stack</h1>
+        <p>Transformo ideias em código e crio experiências digitais incríveis</p>
+        <div class="hero_buttons">
+          <a href="#contact" class="botao">Entre em Contato</a>
+          <a href="#about" class="botao-outline">Saiba Mais...</a>
+        </div>
+      </article>
+      <figure class="hero_image">
+        <img src="./assets/img/dev_woman.svg" alt="Ilustração de uma desenvolvedora trabalhando em um laptop" class="ilustracao float-animation">
+      </figure>
+    </section>
+    <section id="about" class="about_container">
+      <figure class="about_image">
+        <img src="./assets/img/avatar_dev_woman.svg" alt="Foto da pessoa desenvolvedora">
+      </figure>
+      <article class="about_content">
+        <h2>Sobre Mim</h2>
+        <p>Mussum Ipsum, cacilds vidis litro abertis.  Praesent malesuada urna nisi, quis volutpat erat hendrerit non. Nam vulputate dapibus. Todo mundo vê os porris que eu tomo, mas ninguém vê os tombis que eu levo! Suco de cevadiss, é um leite divinis, qui tem lupuliz, matis, aguis e fermentis. Eu nunca mais boto a boca num copo de cachaça, agora eu só uso canudis!</p>
+        <p>Mussum Ipsum, cacilds vidis litro abertis.  Praesent malesuada urna nisi, quis volutpat erat hendrerit non. Nam vulputate dapibus. Todo mundo vê os porris que eu tomo, mas ninguém vê os tombis que eu levo! Suco de cevadiss, é um leite divinis, qui tem lupuliz, matis, aguis e fermentis. Eu nunca mais boto a boca num copo de cachaça, agora eu só uso canudis!</p>
+        <div class="about_stats">
+          <a href="https://github.com/sofia-araujo/portfolio-generation" target="_blank" class="botao">Ver GitHub</a>
+          <div class="stat_item">
+            <p class="stat_number">100</p>
+            <p class="stat_label">Seguidores</p>
+          </div>
+          <div class="stat_item">
+            <p class="stat_number">50</p>
+            <p class="stat_label">Repositórios</p>
+          </div>
+        </div>
+      </article>
+    </section>
+    <section id="contact" class="contact_container">
+      <article class="contact_info">
+        <h4>
+          📬 Vamos conversar? Entre em contato!
+        </h4>
+        <p>
+          Sinta-se à vontade para entrar em contato comigo. Estou sempre aberta a novas oportunidades e colaborações.
+        </p>
+        <div class="social_container">
+          <a href="https://www.linkedin.com/in/sofia-araujo-gomes/" target="_blank" class="social_icon">
+            <img src="./assets/img/linkedin.svg" alt="Link para o LinkedIn">
+          </a>
+          <a href="https://github.com/sofia-araujo" target="_blank" class="social_icon">
+            <img src="./assets/img/github.svg" alt="Link para o GitHub">
+          </a>
+        </div>
+      </article>
+      <form id="formulario">
+        <label for="nome">Nome</label>
+        <input id="nome" name="nome" type="text" placeholder="Digite o seu nome completo">
+        <span id="txtNome"></span>
+        <label for="email">E-mail</label>
+        <input id="email" name="email" type="text" placeholder="Digite o seu e-mail">
+        <span id="txtEmail"></span>
+        <label for="assunto">Assunto</label>
+        <input id="assunto" name="assunto" type="text" placeholder="Digite o assunto da mensagem">
+        <span id="txtAssunto"></span>
+        <label for="mensagem">Mensagem</label>
+        <textarea name="mensagem" id="mensagem" placeholder="Escreva a sua mensagem aqui..."></textarea>
+        <button class="botao" type="submit">Enviar Mensagem</button>
+      </form>
+    </section>
+  </main>
+  <!-- Footer - Rodapé -->
+  <footer>
+    <p>Feito com ❤️ por Sofia Araújo - 2025</p>
+  </footer>
+</body>
+</html>
