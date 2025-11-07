@@ -10,6 +10,9 @@
   <!-- Favicon -->
   <link rel="icon" type="image/svg+xml" href="./assets/img/favicon.svg">
   <title>Portfólio Sofia de Araújo</title>
+
+  <!-- Link para o arquivo css -->
+  <link rel="stylesheet" href="./assets/css/styles.css">
 </head>
 <body>
   <!-- Header Navbar - Menu -->
@@ -20,24 +23,31 @@
       </div>
       <nav>
         <ul class="flex menu_list">
-          <li><a href="#hero">Início</a></li>
-          <li><a href="#about">Sobre</a></li>
-          <li><a href="#contact">Contato</a></li>
+          <li><a href="index.html#hero">Início</a></li>
+          <li><a href="index.html#about">Sobre</a></li>
+          <li><a href="index.html#contact">Contato</a></li>
         </ul>
       </nav>
     </article>
   </header>
   <!-- Área principal -->
-  <main>
-    <article>
-      <figure>
-        <img src="./assets/img/sucess.svg" alt="Ilustração emoji com um símbolo de verificação indicando sucesso no envio de e-mail">
-      </figure>
-      <h1>E-mail enviado com sucesso!</h1>
-      <p>Obrigado por entrar em contato! Logo mais retornarei sua mensagem</p>
-      <a href="./index.html">Voltar para o ínicio</a>
-    </article>
-  </main>
+    <main>
+        <section class="sucess_container">
+            <article class="sucess_content">
+
+                <figure class="sucess_icon">
+                    <img src="./assets/img/sucess.svg" alt="Ilustração de desenvolvedor trabalhando"
+                        class="float-animation">
+                </figure>
+
+                <h1>E-mail enviado com Sucesso!</h1>
+                <h4>Obrigado por entrar em contato! <br /> Logo mais retornarei sua mensagem.</h4>
+
+                <a class="botao" href="index.html">Voltar para o Início</a>
+
+            </article>
+        </section>
+    </main>
   <!-- Footer - Rodapé -->
   <footer>
     <p>Feito com ❤️ por Sofia Araújo - 2025</p>
